@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [project_final by groups]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GRP-reordersignin price(failed)">
+    <groups>
+      <run>
+        <include name="reordersignin price"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="project_final.home_page">
+        <methods>
+          <include name="t_7PriceREorder"/>
+        </methods>
+      </class> <!-- project_final.home_page -->
+    </classes>
+  </test> <!-- GRP-reordersignin price(failed) -->
+</suite> <!-- Failed suite [project_final by groups] -->
